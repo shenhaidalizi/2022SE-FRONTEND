@@ -36,6 +36,16 @@ const routes = [
     component: () => import('../views/Doc.vue')
   },
   {
+    path: '/file',
+    name: 'File',
+    component: () => import('../views/File.vue')
+  },
+  {
+    path: '/editor',
+    name: 'Editor',
+    component: () => import('../views/Editor.vue')
+  },
+  {
     path: '/404',
     name: '404',
     component: () => import('../views/404.vue')

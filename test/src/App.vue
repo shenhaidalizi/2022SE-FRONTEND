@@ -8,6 +8,8 @@
       <router-link to="/register">Register</router-link> |
       <router-link to="/doc">Doc</router-link> |
       <router-link to="/404">404</router-link> |
+      <router-link to="/file">File</router-link> |
+      <router-link to="/editor">Editor</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
     <router-view/>
