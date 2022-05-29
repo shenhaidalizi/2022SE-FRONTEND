@@ -1,9 +1,9 @@
 <template>
   <div id="login" class="login">
     <img class="bgbox" id="bgbox" alt="" src="../../src/assets/1.jpg">
-    <div class="wrap" style="margin-top:150px;margin-left:1100px;">
+    <div class="wrap" style="margin-top:200px;margin-left:1100px;height: 150px;">
       <h1>金刚石文档</h1>
-      <el-form :model="form" ref="form" class="form">
+      <el-form :model="form" ref="form" class="form" >
         <el-form-item class="btn_login">
           <el-button type="primary" @click="toRegister" style="width:100px;">注&nbsp;&nbsp;册</el-button>
           <el-button type="primary" @click="toLogin" style="width:100px;">登&nbsp;&nbsp;录</el-button>

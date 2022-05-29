@@ -2,7 +2,7 @@
   <div class="1editor" style="margin-bottom:0px">
       <!-- <el-button v-on:click="save" type="primary" :disabled="!this.$store.state.isLogin">save</el-button> -->
     <!-- <el-button v-on:click="load">load</el-button> -->
-    <QuillEditor v-on:input="input" ref="myEditor" eHeight="580px" :disabled="this.$store.state.isLogin"/>
+    <QuillEditor v-on:input="input" ref="myEditor" eHeight="1000px" :disabled="this.$store.state.isLogin"/>
     
   </div>
 </template>

@@ -3,7 +3,9 @@
     <div style="padding:0 auto">
       <el-table
         :data="tableData"
-        style="width: 100%;"
+        style="width: 100%;
+        margin-top:100px;
+        margin-left:150px;"
         height="500"
         @row-click="handleRowClick"
       >
